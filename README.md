@@ -27,12 +27,11 @@ The express() app which calls `index.html` and opens port 8080 for local debug
 ## package.json
 
 Heroku uses `package.json` to identify the application as a node.js app. The file contains all the `npm` dependencies which app requires.
-
-Use 
 ```
 npm install
 ```
 to install equivalent dependencies on local machine for local debug.
 
 
-Reference: [heroku](https://devcenter.heroku.com/articles/nodejs)
+### References
+[heroku](https://devcenter.heroku.com/articles/nodejs)
