@@ -1,9 +1,10 @@
 Website Description
 ===================
+www.pauldeng.co
 
 Personal Website Used to Host Blog, Resume, Projects, etc
 
-Using `node.js` and `express` framework to deploy onto Heroku, `npm` for package management, 
+Using `node.js` and `express` framework to deploy onto Heroku, `npm` for package management, Twitter's [bootstrap3](http://getbootstrap.com/) to create initial landing page. May extend to custom `html5`/`css` in the future. 
 
 Files
 =====
@@ -34,4 +35,9 @@ to install equivalent dependencies on local machine for local debug.
 
 
 ### References
-[Heroku](https://devcenter.heroku.com/articles/nodejs)
+[node.js Heroku Deployment](https://devcenter.heroku.com/articles/nodejs)
+[node.js](http://nodejs.org/)
+[express](http://expressjs.com/)
+[Coursera: Startup Engineering](https://class.coursera.org/startup-001/class/index)
+
+
