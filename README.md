@@ -34,4 +34,4 @@ to install equivalent dependencies on local machine for local debug.
 
 
 ### References
-[heroku](https://devcenter.heroku.com/articles/nodejs)
+[Heroku](https://devcenter.heroku.com/articles/nodejs)
