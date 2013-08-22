@@ -41,25 +41,30 @@ sudo apt-get install -y git-core
 git clone https://github.com/paulliwali/setup.git
 ./setup/setup.sh
 ```
+
 2. Generate a new ssh key and updated it on Github
 ```
 ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 ```
+
 3. Clone over this [git](https://www.github.com/paulliwali/website)
 ```
 git clone git@github.com:paulliwali/website.git
 ```
+
 4. Setup git config
 ```
 git config --global user.name $USERNAME
 git config --global user.email $EMAIL
 ```
+
 5. Exit and re-enter the EC2 instance
 ```
 exit
 ssh -i  filename.pem ubunutu@ip_address
 ```
+
 6. Install `npm` dependencies inside the website directory
 ```
 cd website
