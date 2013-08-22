@@ -71,6 +71,33 @@ cd website
 npm install
 ```
 
+7. Update Heroku with ssh key, and create the Heroku apps is not previously created
+```
+heroku login
+heroku keys:add
+heroku apps:create appname-s --remote staging-heroku
+heroku apps:create appname --remote production-heroku
+```
+
+8. To add existing Heroku apps to git remotes
+```
+heroku git:remote -a appname-s -r staging-heroku
+heroku git:remote -a appname -r production-heroku
+```
+
+9. To push to git and Heroku
+```
+git push origin develop
+git checkout staging
+git merge develop
+git push origin staging
+git push staging-heroku staging:master
+git checkout master
+git merge develop
+git push origin master
+git push production-heroku master:master
+```
+
 ### References
 [node.js Heroku Deployment](https://devcenter.heroku.com/articles/nodejs)
 [node.js](http://nodejs.org/)
