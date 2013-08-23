@@ -33,6 +33,10 @@ npm install
 ```
 to install equivalent dependencies on local machine for local debug.
 
+## index.html
+
+Utilizes Twitter's [bootstrap3](getbootstrap.com/getting-started/) for stylization as of now. Will incorporate Google Analytics for market reearch.
+
 ## Setup:
 
 1. On a clean EC2 instance clone and run [setup](https://www.github.com/paulliwali/setup)
@@ -100,8 +104,11 @@ git push production-heroku master:master
 
 ### References
 [node.js Heroku Deployment](https://devcenter.heroku.com/articles/nodejs)
+
 [node.js](http://nodejs.org/)
+
 [express](http://expressjs.com/)
+
 [Coursera: Startup Engineering](https://class.coursera.org/startup-001/class/index)
 
 
