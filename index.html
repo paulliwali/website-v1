@@ -24,16 +24,15 @@
         }
 
         body {
-          padding: 10% 10% 10% 10%;
-          font-size: 16px;
           font-family: "Open Sans", serif;
           background: transparent;
         }
 
-        h1 {
+        h1.title {
           font-family: "Abel", Arial, sans-serif;
           font-weight: 400;
           font-size: 40px;
+          text-align: center;
         }
 
         /* Adds a subtly transparent background */
@@ -43,6 +42,23 @@
 
         .margin-base-vertical {
           margin: 40px 0;
+        }
+
+        p {
+          font-size: 16px;
+          padding: 1.5% 5% 1.5% 5%;
+          line-height: 24px;
+        }
+
+        p.intro {
+          font-size: 20px;
+          line-height: 26px;
+        }
+
+        p.summary {
+        }
+
+        p.conclusion {
         }
 
         a.button:hover, visited, link, active {
@@ -72,17 +88,17 @@
         <div class="row-fluid">
           <div class="span6 offset3 panel">
 
-            <h1 class="margin-base-vertical">My Infra Life</h1>
+            <h1 class="margin-base-vertical title">My Infra Life</h1>
             
-            <p>
+            <p class="intro">
               <i class="icon-quote-left icon-4x pull-left icon-muted"></i>
               This is the landing page for my site that is under construction as of now.
             </p>
-            <p>
+            <p class="summary">
               The site will have some random thoughts that I probably won't ever update, personal projects from school or whatnot.
               Take it easy, its gonna be a while so hang on tight.
             </p>
-            <p>
+            <p class="conclusion">
               In the mean time, here is a bunch of icons to click if you want to find me!
               <i class="icon-quote-right icon-4x pull-right icon-muted"></i>
             </p>
@@ -92,8 +108,8 @@
               <a class="button" href="https://facebook.com/paulliwali"><i class="icon-facebook"></i></a>
               <a class="button" href=""><i class="icon-google-plus"></i></a>
               <a class="button" href="https://linkedin.com/pauldeng93"><i class="icon-linkedin"></i></a>
-            </div>
-            <div class="margin-base-vertical">
+              
+              <!-- Credit text for the bg picture -->
               <small class="text-muted"><a href="http://www.flickr.com/photos/tobyharriman">Background Picture by tobyharriman at flickr</a>. Used under <a href="http://creativecommons.org/licenses/by/2.0/deed.en">Creative Commons - Attribution</a>.</small>
             </div>
 
