@@ -12,8 +12,8 @@
       <!-- jQuery and JS call -->
       <script src="//code.jquery.com/jquery.js"></script>
       <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    
-      <style>
+
+      <style type="text/css">
 
         html {
           background: url("https://farm7.staticflickr.com/6217/7006311043_b2269ed87a_o.jpg") no-repeat center center fixed;
@@ -50,13 +50,27 @@
           color: #000000;
         }
 
+        /* Large Desktop */
+        @media (min-width: 980px) {
+          body {
+            padding-top: 60px;
+          }
+          .linediv-l {
+            border-right: 1px white solid;
+          }
+          .linediv-r {
+            border-left: 1px white solid;
+          }
+        }
+
+
       </style>
 
     </head>
     <body>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-offset-3 panel">
+        <div class="row-fluid">
+          <div class="span6 offset3 panel">
 
             <h1 class="margin-base-vertical">My Infra Life</h1>
             
