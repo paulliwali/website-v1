@@ -13,15 +13,25 @@
     
       <style>
 
-        html {
-          background: url("www.williamghelfi.com/demos/img/6133364748_89f2365922_o.jpg") no-repeat center center fixed;
+        img.bg {
+          min-height: 100%;
+          min-width: 1024px;
 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+          width: 100%;
+          height: auto;
+
+          position: fixed;
+          top: 0;
+          left: 0;
         }
-        
+
+        @media screen and (max-width: 1024px) {
+          img.bg {
+            left: 50%;
+            margin-left: -512px;
+          }
+        }
+
         body {
           padding-top: 20px;
           font-size: 16px;
@@ -53,7 +63,7 @@
 
     </head>
     <body>
-
+      <img src="https://farm9.staticflickr.com/8460/8041355249_258d9fc96f_b.jpg" id="bg" alt="">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-offset-3 panel">
