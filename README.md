@@ -1,10 +1,11 @@
 Website Description
 ===================
-www.pauldeng.co
+www.pauldeng.co (atm..)
 
-Personal Website Used to Host Blog, Resume, Projects, etc
+Landing page to my Personal Website Used to Host Blog, Resume, Projects, etc
 
 Using `node.js` and `express` framework to deploy onto Heroku, `npm` for package management, Twitter's [bootstrap3](http://getbootstrap.com/) to create initial landing page. May extend to custom `html5`/`css` in the future. 
+
 
 Files
 =====
